@@ -17,6 +17,14 @@ window.sr = ScrollReveal();
 
 
 	}); 
+			sr.reveal('.playpause', {
+		duration: 2000, //tiempo
+		delay:800,
+		origin: 'top', //origen
+		distance: '40px' //distancia
+
+
+	}); 
 	
 	sr.reveal('.nombres1', {
 		duration: 2000, //tiempo
